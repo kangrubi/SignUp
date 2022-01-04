@@ -13,6 +13,7 @@
 		04D7D717278414EB00C8182D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D7D715278414EB00C8182D /* Main.storyboard */; };
 		04D7D719278414EC00C8182D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D7D718278414EC00C8182D /* Assets.xcassets */; };
 		04D7D71C278414EC00C8182D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D7D71A278414EC00C8182D /* LaunchScreen.storyboard */; };
+		04D7D72427841B4400C8182D /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7D72327841B4400C8182D /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		04D7D718278414EC00C8182D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D7D71B278414EC00C8182D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D7D71D278414EC00C8182D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D7D72327841B4400C8182D /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				04D7D70F278414EB00C8182D /* AppDelegate.swift */,
 				04D7D711278414EB00C8182D /* SceneDelegate.swift */,
 				04D7D713278414EB00C8182D /* ViewController.swift */,
+				04D7D72327841B4400C8182D /* InfoViewController.swift */,
 				04D7D715278414EB00C8182D /* Main.storyboard */,
 				04D7D718278414EC00C8182D /* Assets.xcassets */,
 				04D7D71A278414EC00C8182D /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				04D7D714278414EB00C8182D /* ViewController.swift in Sources */,
 				04D7D710278414EB00C8182D /* AppDelegate.swift in Sources */,
+				04D7D72427841B4400C8182D /* InfoViewController.swift in Sources */,
 				04D7D712278414EB00C8182D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

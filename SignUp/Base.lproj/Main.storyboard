@@ -95,6 +95,9 @@
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="미리보기"/>
+                                <connections>
+                                    <action selector="previewButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i9x-eg-I2V"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="패스워드보기" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYJ-Zi-cwU">
                                 <rect key="frame" x="20" y="492" width="374" height="20.5"/>
@@ -128,6 +131,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="회원가입" id="eNG-CZ-Wni"/>
+                    <connections>
+                        <outlet property="emailLabel" destination="ISU-H8-hZW" id="rAH-4H-V2O"/>
+                        <outlet property="emailTextField" destination="d2W-FO-i1X" id="A1l-ay-PRl"/>
+                        <outlet property="nameLabel" destination="6tF-tN-6kQ" id="WPt-KE-Wey"/>
+                        <outlet property="nameTextField" destination="xHi-Op-5Wg" id="aSC-VX-dWD"/>
+                        <outlet property="passwordLabel" destination="lYJ-Zi-cwU" id="YvO-xt-Rfi"/>
+                        <outlet property="passwordTextField" destination="CyG-pp-96t" id="YVz-fm-ud5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -154,7 +165,7 @@
         <!--회원정보-->
         <scene sceneID="3yX-YA-S7O">
             <objects>
-                <viewController id="P5t-Dv-dCp" sceneMemberID="viewController">
+                <viewController id="P5t-Dv-dCp" customClass="InfoViewController" customModule="SignUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HU2-0U-dlf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
