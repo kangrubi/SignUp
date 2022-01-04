@@ -73,7 +73,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <segue destination="P5t-Dv-dCp" kind="show" id="5e1-qZ-65Y"/>
+                                    <segue destination="P5t-Dv-dCp" kind="show" identifier="InfoSegue" id="5e1-qZ-65Y"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이름보기" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tF-tN-6kQ">
@@ -207,6 +207,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="회원정보" id="z4C-2z-C5f"/>
+                    <connections>
+                        <outlet property="InfoEmailLabel" destination="ABc-EX-GrY" id="OPx-AF-2fl"/>
+                        <outlet property="InfoNameLabel" destination="MTa-sX-E1n" id="yFJ-g0-sw8"/>
+                        <outlet property="InfoPasswordLabel" destination="PC6-3M-lFv" id="pzS-Uk-QjF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6b1-W7-WOr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

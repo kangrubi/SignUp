@@ -29,7 +29,12 @@ class ViewController: UIViewController {
 // etc function
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        if segue.identifier == "InfoSegue" {
+            let destination = segue.destination as? InfoViewController
+            destination?.nameText = nameTextField.text
+            destination?.emailText = emailTextField.text
+            destination?.passwordText = passwordTextField.text
+        }
     }
     
 // action
