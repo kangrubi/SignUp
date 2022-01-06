@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-// properties - 속성
+// property - 속성
     
 // UI
     @IBOutlet weak var nameTextField: UITextField!
